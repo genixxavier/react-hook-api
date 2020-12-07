@@ -1,0 +1,16 @@
+.Characters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Characters .card {
+  background: peru;
+  margin: 5px;
+  padding: 15px;
+  width: calc(25% - 10px);
+  box-sizing: border-box;
+}
+
+.Characters .card img {
+  max-width: 100%;
+}
